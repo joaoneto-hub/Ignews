@@ -27,9 +27,7 @@
       transition: color 0.2s;
 
       & + a {
-
         margin-left: 2rem;
-
       }
 
       &:hover {
@@ -40,7 +38,7 @@
         font-weight: bold;
       }
       &.active::after {
-        content: '';
+        content: "";
         height: 3px;
         border-radius: 3px 3px 0 0;
         width: 100%;
@@ -48,8 +46,11 @@
         bottom: 1px;
         left: 0;
         background: var(--yellow-500);
-
       }
     }
+  }
+
+  button {
+    margin-left: auto;
   }
 }
